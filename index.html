@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Var creator</title>
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="assets/custom/app.css">
+	</head>
+	<body>
+		<div class="jumbotron">
+			<h2 class="text-center">Var creator</h2>
+			<p class="text-center">
+				<i>Projeto no intuito de te ajudar a escolher o melhor nome de variável. ;)</i>
+			</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12">
+					<input class="form-control" type="text" id="value" placeholder="nome">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<button class="btn btn-success form-control" type="button" onclick="gerarVars()">
+						<i class="fas fa-paper-plane"></i>Gerar
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row response-row" id="resposta_row" style="display: none;">
+				<div class="col-lg-3 col-md-3 col-sm-6">
+					<span>Snake case:</span>
+					<span id="snake_case"></span>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6">
+					<span>Camel case:</span>
+					<span id="camelCase"></span>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6"></div>
+				<div class="col-lg-3 col-md-3 col-sm-6"></div>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/popper/popper.min.js"></script>
+		<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/fontawesome/js/all.min.js"></script>
+		<script type="text/javascript" src="assets/custom/app.js"></script>
+	</footer>
+</html>
